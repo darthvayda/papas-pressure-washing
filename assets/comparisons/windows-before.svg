@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-labelledby="title desc">
+  <title id="title">Dirty windows before washing</title>
+  <desc id="desc">Dusty windows before exterior cleaning.</desc>
+  <rect width="480" height="360" fill="#d3e8f6"/>
+  <rect x="63" y="24" width="354" height="312" rx="8" fill="#6f7777" stroke="#123965" stroke-width="10"/>
+  <g fill="#94a0a0">
+    <rect x="83" y="44" width="144" height="126"/>
+    <rect x="253" y="44" width="144" height="126"/>
+    <rect x="83" y="190" width="144" height="126"/>
+    <rect x="253" y="190" width="144" height="126"/>
+  </g>
+  <path d="M240 35v292M73 180h334" stroke="#123965" stroke-width="10"/>
+  <g stroke="#425050" stroke-width="7" opacity=".7">
+    <path d="M96 71c84 41 171 43 261 6M98 256c63-33 145-35 247-6"/>
+    <path d="M126 46c-25 70-25 147 0 231M334 56c28 86 28 165 0 238"/>
+  </g>
+  <g fill="#d9d2b8" opacity=".65">
+    <circle cx="161" cy="132" r="12"/>
+    <circle cx="304" cy="222" r="10"/>
+    <circle cx="356" cy="99" r="8"/>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-labelledby="title desc">
+  <title id="title">Dirty driveway before cleaning</title>
+  <desc id="desc">A stained concrete driveway before pressure washing.</desc>
+  <rect width="480" height="360" fill="#78a85d"/>
+  <path d="M0 210c76-42 143-53 214-32 82 24 163 7 266-45v227H0z" fill="#5f9148"/>
+  <path d="M118 0h274l58 360H52z" fill="#766c55"/>
+  <path d="M150 0l-27 360M246 0l-7 360M337 0l30 360M91 104h333M75 220h367" stroke="#514b3e" stroke-width="7" opacity=".55"/>
+  <g fill="#2f332a" opacity=".65">
+    <ellipse cx="171" cy="86" rx="70" ry="36"/>
+    <ellipse cx="300" cy="177" rx="105" ry="52"/>
+    <ellipse cx="220" cy="280" rx="92" ry="38"/>
+  </g>
+  <g fill="#ede8dc" opacity=".32">
+    <circle cx="124" cy="162" r="7"/>
+    <circle cx="362" cy="112" r="6"/>
+    <circle cx="331" cy="265" r="8"/>
+    <circle cx="195" cy="223" r="5"/>
+  </g>
+  <path d="M18 90c39 13 76 13 111 0M366 38c30 8 58 8 85 0" stroke="#314f2f" stroke-width="14" stroke-linecap="round"/>
+</svg>

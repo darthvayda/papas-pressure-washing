@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-labelledby="title desc">
+  <title id="title">Driveway cleaning service</title>
+  <desc id="desc">An Austin home driveway being pressure washed clean.</desc>
+  <rect width="520" height="300" fill="#dff5ff"/>
+  <circle cx="440" cy="58" r="38" fill="#ffd568"/>
+  <path d="M0 170c70-45 145-50 226-16 92 39 184 38 294-16v162H0z" fill="#83bd67"/>
+  <path d="M180 92h178l76 76v91H112v-91z" fill="#f1cc8e" stroke="#0b2d55" stroke-width="6"/>
+  <path d="M150 166l120-100 135 100" fill="none" stroke="#0b2d55" stroke-width="9" stroke-linecap="round"/>
+  <rect x="255" y="178" width="80" height="81" fill="#b9824f" stroke="#0b2d55" stroke-width="5"/>
+  <rect x="168" y="176" width="55" height="48" fill="#91d8ff" stroke="#0b2d55" stroke-width="5"/>
+  <path d="M144 259h223L332 300H98z" fill="#ead8b7"/>
+  <path d="M172 259l-18 41M244 259l-4 41M314 259l14 41" stroke="#d0b88e" stroke-width="5"/>
+  <path d="M455 176L322 231" stroke="#172b43" stroke-width="13" stroke-linecap="round"/>
+  <path d="M323 231L216 271M317 221l-122 1M325 242l-93 58" stroke="#31adff" stroke-width="7" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 240" role="img" aria-labelledby="title desc">
+  <title id="title">Papa shows up step</title>
+  <desc id="desc">A blue Papa pressure washing service truck arriving.</desc>
+  <rect width="420" height="240" rx="24" fill="#e8f7ff"/>
+  <path d="M52 168h292c26 0 47-18 47-40v-9H253l-31-52H104c-27 0-48 22-48 48z" fill="#0b66b4" stroke="#0b2d55" stroke-width="7"/>
+  <path d="M111 76h91l24 43H93v-22c0-12 7-21 18-21z" fill="#9bdcff" stroke="#0b2d55" stroke-width="6"/>
+  <rect x="255" y="119" width="104" height="31" rx="7" fill="#ffffff"/>
+  <text x="307" y="142" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="900" fill="#0b66b4">PAPA'S</text>
+  <circle cx="122" cy="171" r="27" fill="#123965"/>
+  <circle cx="122" cy="171" r="12" fill="#ffffff"/>
+  <circle cx="306" cy="171" r="27" fill="#123965"/>
+  <circle cx="306" cy="171" r="12" fill="#ffffff"/>
+  <path d="M67 138h54" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity=".85"/>
+  <circle cx="70" cy="65" r="20" fill="#0d7bdc"/>
+  <text x="70" y="73" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="900" fill="#fff">2</text>
+</svg>

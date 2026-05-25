@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Austin skyline and Hill Country</title>
+  <desc id="desc">A bright illustrated Austin skyline with hills, trees, river, clouds, and a small home.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#dff5ff"/>
+      <stop offset="0.62" stop-color="#f8fcff"/>
+      <stop offset="1" stop-color="#d5efff"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#7ccaff"/>
+      <stop offset="1" stop-color="#1676c8"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#8bc068"/>
+      <stop offset="1" stop-color="#4c8e51"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="640" rx="26" fill="url(#sky)"/>
+  <circle cx="786" cy="124" r="58" fill="#ffd568" opacity=".86"/>
+  <g fill="#ffffff" opacity=".92">
+    <path d="M88 130c30-31 76-27 96 5 26-13 62-4 78 21H46c7-15 21-24 42-26z"/>
+    <path d="M544 80c18-20 48-19 64 2 21-9 47 0 59 20H501c8-12 22-20 43-22z"/>
+    <path d="M704 194c18-18 44-16 59 2 18-8 41-2 54 15H670c6-10 17-16 34-17z"/>
+  </g>
+  <path d="M0 392c128-82 237-80 363-15 111 57 220 51 333-10 112-61 185-72 264-33v306H0z" fill="#b8d98c"/>
+  <path d="M0 439c155-86 286-67 390-13 107 56 200 53 320-16 101-57 169-58 250-19v249H0z" fill="url(#hill)"/>
+  <path d="M210 640c77-117 156-193 282-226 81-21 144-19 239-76-24 101-91 195-172 302z" fill="url(#river)" opacity=".95"/>
+  <path d="M230 639c68-93 150-163 261-195 54-15 98-24 151-51" fill="none" stroke="#d9f5ff" stroke-width="11" opacity=".72"/>
+  <g opacity=".9">
+    <rect x="325" y="210" width="34" height="144" rx="4" fill="#477db6"/>
+    <rect x="368" y="170" width="50" height="184" rx="5" fill="#2f6aa7"/>
+    <rect x="430" y="238" width="38" height="116" rx="4" fill="#7da6cd"/>
+    <rect x="480" y="132" width="46" height="222" rx="6" fill="#275a93"/>
+    <path d="M542 354V208l35-62 35 62v146z" fill="#6e98c2"/>
+    <rect x="622" y="188" width="43" height="166" rx="5" fill="#3c78ad"/>
+    <rect x="680" y="248" width="46" height="106" rx="4" fill="#789fc4"/>
+    <rect x="300" y="330" width="455" height="30" fill="#315b8f"/>
+  </g>
+  <g stroke="#ffffff" stroke-width="3" opacity=".28">
+    <path d="M337 226h16M337 249h16M337 272h16M337 295h16"/>
+    <path d="M382 192h22M382 220h22M382 248h22M382 276h22M382 304h22"/>
+    <path d="M493 158h18M493 188h18M493 218h18M493 248h18M493 278h18"/>
+    <path d="M634 210h19M634 238h19M634 266h19M634 294h19"/>
+  </g>
+  <g transform="translate(698 302)">
+    <path d="M28 140V66L102 18l78 48v74z" fill="#f0c884" stroke="#123965" stroke-width="5"/>
+    <path d="M14 70L102 10l94 60" fill="none" stroke="#123965" stroke-width="8" stroke-linecap="round"/>
+    <rect x="70" y="85" width="78" height="55" rx="4" fill="#b78655" stroke="#123965" stroke-width="4"/>
+    <rect x="84" y="96" width="50" height="34" fill="#d6aa70"/>
+    <rect x="35" y="86" width="30" height="34" fill="#91d8ff" stroke="#123965" stroke-width="4"/>
+    <path d="M38 48h126" stroke="#d7a466" stroke-width="8"/>
+  </g>
+  <g fill="#2f7a43">
+    <circle cx="112" cy="415" r="34"/>
+    <circle cx="152" cy="402" r="41"/>
+    <circle cx="190" cy="425" r="30"/>
+    <rect x="146" y="426" width="15" height="80" fill="#7d5a33"/>
+    <circle cx="808" cy="371" r="42"/>
+    <circle cx="855" cy="354" r="48"/>
+    <circle cx="898" cy="387" r="36"/>
+    <rect x="852" y="392" width="16" height="82" fill="#7d5a33"/>
+  </g>
+</svg>

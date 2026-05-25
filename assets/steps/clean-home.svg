@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 240" role="img" aria-labelledby="title desc">
+  <title id="title">Enjoy the transformation step</title>
+  <desc id="desc">A sparkling clean home with lawn and Hill Country trees.</desc>
+  <rect width="340" height="240" rx="24" fill="#e8f7ff"/>
+  <path d="M0 156c56-33 112-31 169 0 58 31 114 26 171-13v97H0z" fill="#83bd67"/>
+  <path d="M91 122l77-55 84 55v73H91z" fill="#f2cc91" stroke="#0b2d55" stroke-width="5"/>
+  <path d="M74 124l94-68 101 68" fill="none" stroke="#0b2d55" stroke-width="8" stroke-linecap="round"/>
+  <rect x="178" y="144" width="45" height="51" fill="#b9824f" stroke="#0b2d55" stroke-width="4"/>
+  <rect x="108" y="141" width="38" height="34" fill="#91d8ff" stroke="#0b2d55" stroke-width="4"/>
+  <path d="M93 195h156l-26 45H66z" fill="#ead8b7"/>
+  <g fill="#ffffff">
+    <path d="M260 67l8 18 19 7-19 7-8 19-8-19-19-7 19-7z"/>
+    <path d="M72 88l6 14 15 6-15 5-6 15-6-15-15-5 15-6z"/>
+  </g>
+  <circle cx="66" cy="61" r="20" fill="#0d7bdc"/>
+  <text x="66" y="69" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="900" fill="#fff">3</text>
+</svg>

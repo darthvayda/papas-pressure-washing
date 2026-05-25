@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Austin service area landscape</title>
+  <desc id="desc">A panoramic Austin and Hill Country service area illustration with skyline, hills, trees, and a sign.</desc>
+  <defs>
+    <linearGradient id="areaSky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#dbf4ff"/>
+      <stop offset=".62" stop-color="#f8fdff"/>
+      <stop offset="1" stop-color="#c9eaff"/>
+    </linearGradient>
+    <linearGradient id="areaHill" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#94c66e"/>
+      <stop offset="1" stop-color="#4f9854"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" fill="url(#areaSky)"/>
+  <circle cx="1005" cy="102" r="58" fill="#ffd76e"/>
+  <g fill="#ffffff" opacity=".9">
+    <path d="M111 110c28-32 75-29 94 3 24-11 57-3 72 19H70c9-13 23-21 41-22z"/>
+    <path d="M753 83c22-24 56-21 75 2 24-10 56-2 72 22H704c8-13 24-21 49-24z"/>
+  </g>
+  <path d="M0 248c111-67 219-70 334-23 117 48 214 55 331 0 118-55 251-61 535 26v169H0z" fill="#b5d991"/>
+  <path d="M0 300c143-75 273-68 389-20 111 46 223 51 365-18 132-64 281-53 446 25v133H0z" fill="url(#areaHill)"/>
+  <path d="M452 257c73-45 160-45 240 0v163H428c-12-62-5-114 24-163z" fill="#4ca7dd" opacity=".8"/>
+  <g opacity=".95">
+    <rect x="711" y="144" width="36" height="106" fill="#4f86bd"/>
+    <rect x="758" y="105" width="53" height="145" fill="#2f6ba7"/>
+    <rect x="821" y="162" width="34" height="88" fill="#8eb2d1"/>
+    <rect x="868" y="76" width="48" height="174" fill="#275a93"/>
+    <path d="M934 250V142l34-51 34 51v108z" fill="#6f99c1"/>
+    <rect x="1014" y="136" width="43" height="114" fill="#3c78ad"/>
+    <rect x="688" y="235" width="398" height="26" fill="#315b8f"/>
+  </g>
+  <g transform="translate(88 222)">
+    <path d="M18 7h184v106H18z" fill="#dfad66" stroke="#0b2d55" stroke-width="7"/>
+    <path d="M18 44h184M18 78h184" stroke="#c9914d" stroke-width="5"/>
+    <path d="M43 113v95M177 113v95" stroke="#694522" stroke-width="14" stroke-linecap="round"/>
+    <text x="110" y="49" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="900" fill="#0b2d55">KEEP</text>
+    <text x="110" y="81" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="900" fill="#0b2d55">AUSTIN</text>
+    <text x="110" y="109" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="900" fill="#0b2d55">CLEAN</text>
+  </g>
+  <g fill="#2e7842">
+    <circle cx="303" cy="255" r="34"/>
+    <circle cx="344" cy="238" r="45"/>
+    <circle cx="393" cy="263" r="32"/>
+    <rect x="340" y="267" width="16" height="86" fill="#7a5630"/>
+    <circle cx="1090" cy="251" r="38"/>
+    <circle cx="1132" cy="235" r="48"/>
+    <circle cx="1171" cy="263" r="31"/>
+    <rect x="1128" y="268" width="17" height="80" fill="#7a5630"/>
+  </g>
+</svg>

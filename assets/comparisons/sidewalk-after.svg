@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-labelledby="title desc">
+  <title id="title">Clean sidewalk after pressure washing</title>
+  <desc id="desc">A clean light sidewalk after pressure washing.</desc>
+  <rect width="480" height="360" fill="#82bd65"/>
+  <path d="M0 112c73-27 138-25 199 5 75 37 156 28 281-28v271H0z" fill="#63a24f"/>
+  <path d="M150 0h202l80 360H58z" fill="#ead7ae"/>
+  <path d="M180 0l-38 360M283 0l34 360M106 96h299M84 204h335M66 300h380" stroke="#ceb78b" stroke-width="6" opacity=".72"/>
+  <path d="M156 50c76-14 151-11 225 10M111 258c91-19 190-19 299 0" stroke="#fff7e7" stroke-width="10" opacity=".58" stroke-linecap="round"/>
+  <g fill="#4e9340">
+    <circle cx="72" cy="80" r="18"/>
+    <circle cx="420" cy="145" r="19"/>
+    <circle cx="43" cy="258" r="22"/>
+  </g>
+</svg>

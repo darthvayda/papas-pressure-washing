@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-labelledby="title desc">
+  <title id="title">Window cleaning service</title>
+  <desc id="desc">A squeegee cleaning bright blue windows.</desc>
+  <rect width="520" height="300" fill="#dff5ff"/>
+  <rect x="80" y="30" width="360" height="240" rx="8" fill="#eaf9ff" stroke="#0b2d55" stroke-width="8"/>
+  <g fill="#9bdcff">
+    <rect x="100" y="52" width="145" height="88"/>
+    <rect x="275" y="52" width="145" height="88"/>
+    <rect x="100" y="162" width="145" height="88"/>
+    <rect x="275" y="162" width="145" height="88"/>
+  </g>
+  <path d="M260 42v218M90 151h340" stroke="#0b2d55" stroke-width="8"/>
+  <path d="M156 126l90-90M302 130l77-76M128 238l72-72M309 242l74-74" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".8"/>
+  <path d="M96 214l140-54" stroke="#172b43" stroke-width="16" stroke-linecap="round"/>
+  <rect x="223" y="135" width="135" height="34" rx="8" transform="rotate(-21 290 152)" fill="#123965"/>
+  <path d="M378 118l46-18" stroke="#172b43" stroke-width="14" stroke-linecap="round"/>
+  <g fill="#ffffff">
+    <path d="M177 76l8 17 18 7-18 7-8 18-7-18-18-7 18-7z"/>
+    <path d="M363 210l7 16 17 6-17 7-7 16-7-16-17-7 17-6z"/>
+  </g>
+</svg>

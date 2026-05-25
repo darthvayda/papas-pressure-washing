@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-labelledby="title desc">
+  <title id="title">Patio and sidewalk cleaning service</title>
+  <desc id="desc">A clean stone patio with chairs and greenery.</desc>
+  <rect width="520" height="300" fill="#dff5ff"/>
+  <path d="M0 136c71-47 152-49 242-4 86 42 165 38 278-16v184H0z" fill="#83bd67"/>
+  <path d="M44 82h427l-48 203H90z" fill="#d9ad72"/>
+  <g stroke="#ba8551" stroke-width="5">
+    <path d="M64 124h391M55 172h389M79 220h348M94 263h318"/>
+    <path d="M137 84L111 285M231 83l-12 202M331 82l14 203M425 82l-40 203"/>
+  </g>
+  <path d="M64 70c38-28 84-30 137-8M318 65c49-28 95-28 139-3" stroke="#447f3d" stroke-width="18" stroke-linecap="round"/>
+  <g stroke="#0b2d55" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M306 100h116M365 100v71"/>
+    <path d="M324 171h80l-18 54h-44z" fill="none"/>
+    <path d="M160 135h83M179 135l-30 71M224 135l30 71M151 207h103" fill="none"/>
+  </g>
+</svg>

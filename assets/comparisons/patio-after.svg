@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-labelledby="title desc">
+  <title id="title">Clean patio after washing</title>
+  <desc id="desc">A warm clean patio after exterior cleaning.</desc>
+  <rect width="480" height="360" fill="#83bd67"/>
+  <path d="M0 148c70-48 144-51 222-8 80 44 164 43 258-2v222H0z" fill="#64a24f"/>
+  <path d="M38 58h404l-34 282H70z" fill="#d9ad72"/>
+  <g stroke="#ba8551" stroke-width="6" opacity=".82">
+    <path d="M61 110h360M54 176h373M49 242h386M74 310h338"/>
+    <path d="M126 61l-17 277M214 60l-4 278M309 60l9 278M394 59l-28 279"/>
+  </g>
+  <path d="M86 92c91-15 198-15 320 0M90 282c95-16 191-16 287 0" stroke="#ffe7b5" stroke-width="9" opacity=".54" stroke-linecap="round"/>
+  <g stroke="#123965" stroke-width="8" stroke-linecap="round">
+    <path d="M320 40h92M366 40v52"/>
+    <path d="M332 92h70l-14 42h-42z" fill="none"/>
+  </g>
+</svg>

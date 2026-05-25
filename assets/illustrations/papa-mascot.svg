@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 660" role="img" aria-labelledby="title desc">
+  <title id="title">Papa pressure washing mascot</title>
+  <desc id="desc">A friendly illustrated Papa holding a pressure washing wand with blue water spray.</desc>
+  <defs>
+    <linearGradient id="shirt" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#0c5fa7"/>
+      <stop offset="1" stop-color="#073a72"/>
+    </linearGradient>
+    <linearGradient id="spray" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#62c9ff"/>
+      <stop offset="1" stop-color="#1d8bea"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="#0b2d55" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M470 512c-48 30-72 60-57 91 13 27 53 16 49-17-5-43-60-85-158-121" stroke-width="12"/>
+    <path d="M183 400L42 462" stroke="url(#spray)" stroke-width="22"/>
+    <path d="M178 384L28 390M176 418L16 528M171 401L4 462" stroke="#31adff" stroke-width="9" opacity=".8"/>
+    <path d="M178 400l216 91" stroke="#172b43" stroke-width="17"/>
+    <path d="M246 425l181 76" stroke="#172b43" stroke-width="25"/>
+  </g>
+  <g stroke="#0b2d55" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M230 304c-48 13-86 62-96 126l-24 149h276l-21-148c-8-67-48-116-103-128z" fill="url(#shirt)" stroke-width="8"/>
+    <path d="M132 421c-32 21-54 59-62 111" fill="none" stroke-width="35"/>
+    <path d="M356 420c39 21 61 51 70 95" fill="none" stroke-width="35"/>
+    <path d="M127 421c-32 21-54 59-62 111" fill="#0a4b8c" stroke-width="21"/>
+    <path d="M362 421c39 21 61 51 70 95" fill="#0a4b8c" stroke-width="21"/>
+    <path d="M197 575l-10 69h52l8-69zM287 575l16 69h53l-20-69z" fill="#d6ad73" stroke-width="8"/>
+    <path d="M188 642h65M297 642h71" stroke-width="17"/>
+    <path d="M157 510c12-15 29-22 51-21M326 489c29-7 51 7 65 26" fill="none" stroke-width="8"/>
+    <path d="M187 312c33 32 86 34 122 0l-9 54c-27 18-75 19-103 0z" fill="#f2bd88" stroke-width="8"/>
+  </g>
+  <g stroke="#0b2d55" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M143 174c1-80 52-135 121-131 64 4 110 61 106 139-4 82-53 141-115 140-66-1-114-63-112-148z" fill="#f5c391" stroke-width="8"/>
+    <path d="M137 194c-25-9-40 13-29 43 8 21 26 31 43 22M367 197c24-6 37 18 24 46-10 21-29 28-44 17" fill="#f0b27d" stroke-width="7"/>
+    <path d="M148 149c24-69 102-111 175-65 21 13 41 38 48 67-37-36-80-47-128-36-41 10-69 26-95 34z" fill="#ffffff" stroke-width="8"/>
+    <path d="M166 131c40 20 103 15 152-18" fill="none" stroke-width="8"/>
+    <path d="M166 226c29 73 142 74 172 0-32 22-58 30-86 30-31 0-55-9-86-30z" fill="#ffffff" stroke-width="8"/>
+    <path d="M171 215c-16 58 11 108 82 113 68-4 96-55 80-113-18 30-45 49-80 49-37 0-64-19-82-49z" fill="#ffffff" stroke-width="8"/>
+    <path d="M219 202c5 10 18 10 23 0M285 202c5 10 18 10 23 0" fill="none" stroke-width="7"/>
+    <path d="M244 218c5 8 16 9 24 0" fill="none" stroke-width="6"/>
+    <path d="M211 172c13-9 30-9 42 0M283 172c13-9 30-9 42 0" fill="none" stroke-width="7"/>
+    <path d="M239 285c11 7 32 7 43 0" fill="none" stroke-width="6"/>
+  </g>
+  <g stroke="#0b2d55" stroke-linejoin="round">
+    <path d="M206 337l45 46 48-46" fill="none" stroke-width="8"/>
+    <path d="M249 383v192" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="249" cy="426" r="7" fill="#ffffff"/>
+    <circle cx="249" cy="471" r="7" fill="#ffffff"/>
+    <path d="M304 380h46v36h-46z" fill="#0a4b8c" stroke-width="5"/>
+  </g>
+  <g stroke="#0b2d55" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M145 516c20-20 49-17 61 8 7 14-1 32-19 38-25 9-53-10-42-46zM373 513c24-1 39 16 34 37-5 19-27 28-47 17-26-14-22-52 13-54z" fill="#f5c391" stroke-width="8"/>
+    <path d="M132 539l78-33M354 530l82 36" fill="none" stroke-width="12"/>
+    <path d="M209 504l-20-16M434 566l24-12" fill="none" stroke-width="8"/>
+  </g>
+</svg>

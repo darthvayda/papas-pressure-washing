@@ -1,19 +1,29 @@
-const JOBBER_BOOKING_URL = '#book'; // Replace with your GetJobber online booking URL.
+const JOBBER_BOOKING_URL = '#booking'; // Replace with your GetJobber booking URL before launch.
 const PHONE_NUMBER = '5125550123';
 
-document.querySelectorAll('.js-jobber-link').forEach((link) => {
+document.querySelectorAll('[data-jobber-link]').forEach((link) => {
   link.href = JOBBER_BOOKING_URL;
 });
 
-document.querySelectorAll('[data-slider]').forEach((slider) => {
-  const input = slider.querySelector('input');
-  const after = slider.querySelector('.ba-after');
-  const update = () => {
-    after.style.clipPath = `inset(0 0 0 ${input.value}%)`;
-    slider.style.setProperty('--pos', input.value);
-  };
-  input.addEventListener('input', update);
-  update();
+document.querySelectorAll('[data-phone-link]').forEach((link) => {
+  link.href = `tel:${PHONE_NUMBER}`;
 });
 
-document.getElementById('year').textContent = new Date().getFullYear();
+document.querySelectorAll('[data-slider]').forEach((slider) => {
+  const input = slider.querySelector('.compare-control');
+
+  if (!input) return;
+
+  const updateSlider = () => {
+    slider.style.setProperty('--split', `${input.value}%`);
+  };
+
+  input.addEventListener('input', updateSlider);
+  updateSlider();
+});
+
+const year = document.getElementById('year');
+
+if (year) {
+  year.textContent = new Date().getFullYear();
+}

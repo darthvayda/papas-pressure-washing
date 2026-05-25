@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-labelledby="title desc">
+  <title id="title">Dirty patio before cleaning</title>
+  <desc id="desc">A stained stone patio before exterior cleaning.</desc>
+  <rect width="480" height="360" fill="#6fa557"/>
+  <path d="M0 148c70-48 144-51 222-8 80 44 164 43 258-2v222H0z" fill="#5d9149"/>
+  <path d="M38 58h404l-34 282H70z" fill="#846d51"/>
+  <g stroke="#594b3a" stroke-width="7" opacity=".78">
+    <path d="M61 110h360M54 176h373M49 242h386M74 310h338"/>
+    <path d="M126 61l-17 277M214 60l-4 278M309 60l9 278M394 59l-28 279"/>
+  </g>
+  <g fill="#2d362c" opacity=".58">
+    <ellipse cx="147" cy="157" rx="74" ry="28"/>
+    <ellipse cx="308" cy="111" rx="62" ry="25"/>
+    <ellipse cx="262" cy="257" rx="95" ry="34"/>
+  </g>
+  <g stroke="#123965" stroke-width="8" stroke-linecap="round">
+    <path d="M320 40h92M366 40v52"/>
+    <path d="M332 92h70l-14 42h-42z" fill="none"/>
+  </g>
+</svg>

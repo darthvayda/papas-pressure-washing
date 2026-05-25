@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-labelledby="title desc">
+  <title id="title">House washing service</title>
+  <desc id="desc">A friendly illustrated home after soft washing.</desc>
+  <rect width="520" height="300" fill="#dff5ff"/>
+  <circle cx="430" cy="62" r="40" fill="#ffd568"/>
+  <path d="M0 186c72-47 154-48 238-7 87 43 171 35 282-20v141H0z" fill="#83bd67"/>
+  <g fill="#fff">
+    <path d="M71 77c26-27 64-22 82 5 21-10 50-2 63 19H38c8-13 19-21 33-24z"/>
+  </g>
+  <path d="M112 144L260 48l154 96v118H112z" fill="#f2cc91" stroke="#0b2d55" stroke-width="7"/>
+  <path d="M87 148L260 34l179 114" fill="none" stroke="#0b2d55" stroke-width="10" stroke-linecap="round"/>
+  <rect x="286" y="179" width="82" height="83" fill="#b9824f" stroke="#0b2d55" stroke-width="5"/>
+  <rect x="148" y="172" width="62" height="50" fill="#91d8ff" stroke="#0b2d55" stroke-width="5"/>
+  <rect x="229" y="129" width="58" height="48" fill="#91d8ff" stroke="#0b2d55" stroke-width="5"/>
+  <path d="M125 127h266" stroke="#d7a466" stroke-width="8"/>
+  <g fill="#ffffff">
+    <path d="M400 149l8 18 19 7-19 7-8 19-8-19-19-7 19-7z"/>
+    <path d="M98 217l6 14 15 5-15 6-6 14-5-14-15-6 15-5z"/>
+  </g>
+</svg>

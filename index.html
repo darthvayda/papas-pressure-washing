@@ -4,130 +4,299 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Papa's Pressure Washing | Austin Driveway & Window Cleaning</title>
-  <meta name="description" content="Friendly Austin pressure washing for homeowners. Driveway cleaning, window cleaning, patios, sidewalks, and house washing. Book online or call Papa today." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <meta name="description" content="Friendly Austin pressure washing for homeowners. Driveway cleaning, window washing, patios, sidewalks, and exterior cleaning. Book online or call Papa today." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="site-header">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
     <a class="brand" href="#top" aria-label="Papa's Pressure Washing home">
       <img src="assets/logo.jpeg" alt="Papa's Pressure Washing logo" />
     </a>
-    <nav class="nav" aria-label="Main navigation">
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#top">Home</a>
       <a href="#services">Services</a>
-      <a href="#before-after">Before & After</a>
-      <a href="#how-it-works">How It Works</a>
+      <a href="#before-after">Before &amp; After</a>
+      <a href="#why-papa">About Papa</a>
       <a href="#areas">Service Areas</a>
+      <a href="#why-papa">Reviews</a>
     </nav>
-    <div class="header-actions">
-      <a class="btn btn-ghost" href="tel:5125550123">Call</a>
-      <a class="btn btn-primary js-jobber-link" href="#book">Book Now</a>
+
+    <div class="header-actions" aria-label="Contact actions">
+      <a class="phone-pill" href="tel:5125550123" data-phone-link>
+        <span aria-hidden="true">☎</span>
+        <span>(512) 555-0123</span>
+      </a>
+      <a class="btn btn-primary" href="#booking" data-jobber-link>
+        <span aria-hidden="true">▣</span>
+        <span>Book Now</span>
+      </a>
     </div>
   </header>
 
-  <main id="top">
-    <section class="hero section-pad">
-      <div class="blob blob-1"></div>
+  <main id="main">
+    <section class="hero section">
       <div class="hero-copy">
-        <p class="eyebrow">Austin owned • homeowner friendly</p>
-        <h1>Austin’s Friendliest Pressure Washing Company</h1>
-        <p class="lead">We treat your home like it’s our own. Professional driveway cleaning, window washing, and exterior cleaning for a brighter Austin home.</p>
+        <h1>Austin’s Friendliest <span>Pressure Washing</span> Company</h1>
+        <p class="hero-subheadline">We treat your home like it’s our own. Professional driveway cleaning, window washing, and exterior cleaning for a cleaner, brighter Austin.</p>
+
         <div class="hero-actions">
-          <a class="btn btn-primary btn-large js-jobber-link" href="#book">Schedule Your Cleaning</a>
-          <a class="btn btn-ghost btn-large" href="tel:5125550123">Call Papa Now</a>
+          <a class="btn btn-primary btn-large" href="#booking" data-jobber-link>
+            <span aria-hidden="true">▣</span>
+            <span>Schedule Your Cleaning</span>
+          </a>
+          <a class="btn btn-secondary btn-large" href="tel:5125550123" data-phone-link>
+            <span aria-hidden="true">☎</span>
+            <span>Call Papa Now</span>
+          </a>
         </div>
-        <div class="trust-row" aria-label="Trust highlights">
-          <span>⭐ 5.0 local service</span>
-          <span>🛡️ Fully reliable</span>
-          <span>🏡 Family owned feel</span>
+
+        <div class="hero-proof" aria-label="Trust highlights">
+          <div class="proof-item proof-google">
+            <span class="proof-mark">G</span>
+            <span><strong>5.0</strong> 200+ Reviews</span>
+          </div>
+          <div class="proof-item">
+            <span class="proof-icon" aria-hidden="true">◆</span>
+            <span>Fully Insured &amp; Reliable</span>
+          </div>
+          <div class="proof-item">
+            <span class="proof-icon" aria-hidden="true">●</span>
+            <span>Family Owned &amp; Local</span>
+          </div>
         </div>
       </div>
-      <div class="hero-art" aria-label="Austin pressure washing illustration">
-        <div class="skyline"></div>
-        <div class="papa-card">
-          <img src="assets/logo.jpeg" alt="Friendly Papa mascot pressure washing" />
-        </div>
-        <div class="hero-slider before-after" data-slider>
-          <div class="ba-image ba-before"></div>
-          <div class="ba-image ba-after"></div>
-          <input type="range" min="0" max="100" value="52" aria-label="Before and after driveway comparison" />
-          <span class="tag before-tag">Before</span>
-          <span class="tag after-tag">After</span>
+
+      <div class="hero-visual" aria-label="Austin skyline, Papa mascot, and driveway before-after comparison">
+        <img class="hero-background" src="assets/illustrations/austin-hill-country.svg" alt="" aria-hidden="true" />
+        <img class="papa-mascot" src="assets/illustrations/papa-mascot.svg" alt="Papa mascot holding a pressure washing wand" />
+
+        <div class="compare-card hero-compare" data-slider style="--split: 52%;">
+          <img class="compare-before" src="assets/comparisons/driveway-before.svg" alt="Dirty driveway before cleaning" />
+          <div class="compare-after">
+            <img src="assets/comparisons/driveway-after.svg" alt="Clean driveway after pressure washing" />
+          </div>
+          <span class="compare-label compare-label-before">Before</span>
+          <span class="compare-label compare-label-after">After</span>
+          <span class="compare-divider" aria-hidden="true"><span>↔</span></span>
+          <input class="compare-control" type="range" min="12" max="88" value="52" aria-label="Before and after driveway comparison" />
         </div>
       </div>
     </section>
 
-    <section id="before-after" class="section-pad ba-section">
-      <p class="eyebrow centered">The difference is</p>
-      <h2>Night and Day</h2>
-      <p class="section-intro">See dramatic concrete driveway, sidewalk, patio, and window transformations.</p>
-      <div class="ba-grid">
-        <article class="mini-card"><div class="mini-ba driveway"></div><h3>Driveways</h3></article>
-        <article class="mini-card"><div class="mini-ba windows"></div><h3>Windows</h3></article>
-        <article class="mini-card"><div class="mini-ba sidewalk"></div><h3>Sidewalks</h3></article>
-        <article class="mini-card"><div class="mini-ba patio"></div><h3>Patios</h3></article>
+    <section class="difference section section-blue" id="before-after">
+      <div class="section-heading split-heading">
+        <p class="eyebrow">The Difference Is</p>
+        <h2>Night And Day</h2>
+      </div>
+      <p class="section-intro">See the amazing transformations we deliver for Austin homeowners every day.</p>
+
+      <div class="before-grid">
+        <article class="before-card">
+          <div class="split-visual" style="--split: 50%;">
+            <img class="compare-before" src="assets/comparisons/driveway-before.svg" alt="Dirty driveway before cleaning" loading="lazy" />
+            <div class="compare-after"><img src="assets/comparisons/driveway-after.svg" alt="Clean driveway after pressure washing" loading="lazy" /></div>
+            <span class="compare-label compare-label-before">Before</span>
+            <span class="compare-label compare-label-after">After</span>
+            <span class="compare-divider" aria-hidden="true"><span>↔</span></span>
+          </div>
+          <h3>Driveways</h3>
+        </article>
+
+        <article class="before-card">
+          <div class="split-visual" style="--split: 50%;">
+            <img class="compare-before" src="assets/comparisons/windows-before.svg" alt="Dirty windows before washing" loading="lazy" />
+            <div class="compare-after"><img src="assets/comparisons/windows-after.svg" alt="Clean windows after washing" loading="lazy" /></div>
+            <span class="compare-label compare-label-before">Before</span>
+            <span class="compare-label compare-label-after">After</span>
+            <span class="compare-divider" aria-hidden="true"><span>↔</span></span>
+          </div>
+          <h3>Windows</h3>
+        </article>
+
+        <article class="before-card">
+          <div class="split-visual" style="--split: 50%;">
+            <img class="compare-before" src="assets/comparisons/sidewalk-before.svg" alt="Dirty sidewalk before pressure washing" loading="lazy" />
+            <div class="compare-after"><img src="assets/comparisons/sidewalk-after.svg" alt="Clean sidewalk after pressure washing" loading="lazy" /></div>
+            <span class="compare-label compare-label-before">Before</span>
+            <span class="compare-label compare-label-after">After</span>
+            <span class="compare-divider" aria-hidden="true"><span>↔</span></span>
+          </div>
+          <h3>Sidewalks</h3>
+        </article>
+
+        <article class="before-card">
+          <div class="split-visual" style="--split: 50%;">
+            <img class="compare-before" src="assets/comparisons/patio-before.svg" alt="Dirty patio before cleaning" loading="lazy" />
+            <div class="compare-after"><img src="assets/comparisons/patio-after.svg" alt="Clean patio after washing" loading="lazy" /></div>
+            <span class="compare-label compare-label-before">Before</span>
+            <span class="compare-label compare-label-after">After</span>
+            <span class="compare-divider" aria-hidden="true"><span>↔</span></span>
+          </div>
+          <h3>Patios</h3>
+        </article>
+      </div>
+
+      <a class="btn btn-outline section-button" href="#booking" data-jobber-link>View More Before &amp; After Photos</a>
+    </section>
+
+    <section class="trust section" id="why-papa">
+      <div class="section-heading">
+        <p class="eyebrow">Why Homeowners Love</p>
+        <h2>Papa’s</h2>
+      </div>
+
+      <div class="trust-grid">
+        <article class="trust-card">
+          <span class="trust-icon heart" aria-hidden="true">♥</span>
+          <h3>Friendly &amp; Respectful</h3>
+          <p>We treat your home like it’s our own, with care, clear communication, and respect.</p>
+        </article>
+        <article class="trust-card">
+          <span class="trust-icon skyline" aria-hidden="true">⌂</span>
+          <h3>Austin Local</h3>
+          <p>We know Central Texas dust, pollen, algae, hard water, and Hill Country grime.</p>
+        </article>
+        <article class="trust-card">
+          <span class="trust-icon calendar" aria-hidden="true">✓</span>
+          <h3>Easy Scheduling</h3>
+          <p>Book online in minutes and we’ll work around your busy schedule.</p>
+        </article>
+        <article class="trust-card">
+          <span class="trust-icon shield" aria-hidden="true">★</span>
+          <h3>Satisfaction Guaranteed</h3>
+          <p>If it’s not clean, we’ll come back and make it right.</p>
+        </article>
       </div>
     </section>
 
-    <section class="section-pad love-section">
-      <h2>Why Homeowners Love Papa’s</h2>
-      <div class="feature-grid">
-        <article><div class="icon">❤️</div><h3>Friendly & Respectful</h3><p>We show up with care, communicate clearly, and treat your home like family.</p></article>
-        <article><div class="icon">🌄</div><h3>Austin Local</h3><p>Built for Central Texas dust, pollen, algae, hard water, and Hill Country grime.</p></article>
-        <article><div class="icon">📅</div><h3>Easy Scheduling</h3><p>Book online with Jobber or call directly when you want a human touch.</p></article>
-        <article><div class="icon">✨</div><h3>Clean Results</h3><p>Driveways, windows, patios, and sidewalks that make your home feel fresh again.</p></article>
+    <section class="services section section-blue" id="services">
+      <div class="section-heading">
+        <h2>Our Services</h2>
       </div>
-    </section>
 
-    <section id="services" class="section-pad services-section">
-      <h2>Our Services</h2>
       <div class="service-grid">
-        <article class="service-card"><div class="service-img driveway-img"></div><h3>Driveway Cleaning</h3><p>Oil stains, tire marks, algae, and dirt don’t stand a chance.</p><a class="text-link js-jobber-link" href="#book">Book driveway cleaning</a></article>
-        <article class="service-card"><div class="service-img window-img"></div><h3>Window Cleaning</h3><p>Streak-free shine so your windows look clear from inside and out.</p><a class="text-link js-jobber-link" href="#book">Book window cleaning</a></article>
-        <article class="service-card"><div class="service-img house-img"></div><h3>House Washing</h3><p>Soft-wash exterior cleaning for siding, brick, and trim.</p><a class="text-link js-jobber-link" href="#book">Book house washing</a></article>
-        <article class="service-card"><div class="service-img patio-img"></div><h3>Patios & Sidewalks</h3><p>Bring life back to outdoor spaces where your family hangs out.</p><a class="text-link js-jobber-link" href="#book">Book patio cleaning</a></article>
+        <article class="service-card">
+          <img src="assets/services/driveway-cleaning.svg" alt="Driveway cleaning illustration" loading="lazy" />
+          <div>
+            <h3>Driveway Cleaning</h3>
+            <p>Oil stains, tire marks, and dirt don’t stand a chance.</p>
+            <a class="btn btn-small btn-primary" href="#booking" data-jobber-link>Learn More</a>
+          </div>
+        </article>
+        <article class="service-card">
+          <img src="assets/services/window-cleaning.svg" alt="Window cleaning illustration" loading="lazy" />
+          <div>
+            <h3>Window Cleaning</h3>
+            <p>Streak-free shine for your windows inside and out.</p>
+            <a class="btn btn-small btn-primary" href="#booking" data-jobber-link>Learn More</a>
+          </div>
+        </article>
+        <article class="service-card">
+          <img src="assets/services/house-washing.svg" alt="House washing illustration" loading="lazy" />
+          <div>
+            <h3>House Washing</h3>
+            <p>Soft wash techniques that safely remove mold, algae, and buildup.</p>
+            <a class="btn btn-small btn-primary" href="#booking" data-jobber-link>Learn More</a>
+          </div>
+        </article>
+        <article class="service-card">
+          <img src="assets/services/patios-sidewalks.svg" alt="Patios and sidewalks cleaning illustration" loading="lazy" />
+          <div>
+            <h3>Patios &amp; Sidewalks</h3>
+            <p>Bring new life back to your outdoor spaces.</p>
+            <a class="btn btn-small btn-primary" href="#booking" data-jobber-link>Learn More</a>
+          </div>
+        </article>
       </div>
     </section>
 
-    <section id="how-it-works" class="section-pad how-section">
-      <h2>How It Works</h2>
+    <section class="how section" id="how-it-works">
+      <div class="section-heading">
+        <h2>How It Works</h2>
+      </div>
+
       <div class="steps">
-        <article><span>1</span><h3>Book Online</h3><p>Choose your service and request a time through Jobber.</p></article>
-        <article><span>2</span><h3>Papa Shows Up</h3><p>We arrive on time, explain the plan, and get to work.</p></article>
-        <article><span>3</span><h3>Enjoy The Transformation</h3><p>Step back and enjoy a cleaner, brighter home exterior.</p></article>
+        <article class="step-card">
+          <img src="assets/steps/book-online.svg" alt="Booking online with a phone calendar" loading="lazy" />
+          <div>
+            <h3>Book Online</h3>
+            <p>Choose your service and schedule in just a few clicks.</p>
+          </div>
+        </article>
+        <article class="step-card">
+          <img src="assets/steps/papa-truck.svg" alt="Papa pressure washing truck" loading="lazy" />
+          <div>
+            <h3>Papa Shows Up</h3>
+            <p>On time, professional, and ready to make your home shine.</p>
+          </div>
+        </article>
+        <article class="step-card">
+          <img src="assets/steps/clean-home.svg" alt="Clean home after exterior cleaning" loading="lazy" />
+          <div>
+            <h3>Enjoy The Transformation</h3>
+            <p>Sit back and enjoy a cleaner, brighter home.</p>
+          </div>
+        </article>
       </div>
     </section>
 
-    <section id="areas" class="area-section section-pad">
+    <section class="area" id="areas">
+      <img src="assets/illustrations/service-area.svg" alt="" aria-hidden="true" />
+      <div class="area-copy">
+        <p class="eyebrow">Proudly Serving The Austin Area</p>
+        <h2>Hill Country Tough. Papa Strong.</h2>
+        <p>From Cedar Park to Buda, Lakeway to Manor, we help Central Texas homeowners protect their biggest investment.</p>
+        <a class="btn btn-secondary" href="#booking" data-jobber-link>View Service Areas</a>
+      </div>
+    </section>
+
+    <section class="final-cta" id="booking">
+      <div class="final-cta-art">
+        <img src="assets/illustrations/papa-mascot.svg" alt="" aria-hidden="true" />
+      </div>
       <div>
-        <p class="eyebrow">Proudly serving the Austin area</p>
-        <h2>Hill Country Clean, Austin Friendly</h2>
-        <p>From Central Austin to the surrounding Hill Country suburbs, Papa’s Pressure Washing helps homeowners keep dust, pollen, algae, and grime under control.</p>
+        <h2>Your Home Deserves The Papa Treatment</h2>
+        <p>Friendly service. Powerful results. 100% satisfaction.</p>
       </div>
-      <a class="btn btn-primary js-jobber-link" href="#book">Schedule Service</a>
-    </section>
-
-    <section id="book" class="book-section section-pad">
-      <h2>Your Home Deserves The Papa Treatment</h2>
-      <p>Ready for a cleaner driveway or brighter windows? Schedule online or call Papa today.</p>
-      <div class="hero-actions centered-actions">
-        <a class="btn btn-primary btn-large js-jobber-link" href="#book">Book With Jobber</a>
-        <a class="btn btn-ghost btn-large" href="tel:5125550123">Call (512) 555-0123</a>
+      <div class="final-actions">
+        <a class="btn btn-primary btn-large" href="#booking" data-jobber-link>
+          <span aria-hidden="true">▣</span>
+          <span>Schedule Your Cleaning</span>
+        </a>
+        <a class="btn btn-secondary-dark btn-large" href="tel:5125550123" data-phone-link>
+          <span aria-hidden="true">☎</span>
+          <span>Call (512) 555-0123</span>
+        </a>
       </div>
-      <p class="small-note">Replace the placeholder phone number and Jobber link before launch.</p>
     </section>
   </main>
 
   <footer class="site-footer">
-    <img src="assets/logo.jpeg" alt="Papa's Pressure Washing logo" />
+    <a class="footer-brand" href="#top" aria-label="Papa's Pressure Washing home">
+      <img src="assets/logo.jpeg" alt="Papa's Pressure Washing logo" />
+    </a>
+    <nav aria-label="Footer navigation">
+      <a href="#top">Home</a>
+      <a href="#services">Services</a>
+      <a href="#before-after">Before &amp; After</a>
+      <a href="#why-papa">About Papa</a>
+      <a href="#areas">Service Areas</a>
+    </nav>
     <p>© <span id="year"></span> Papa’s Pressure Washing. Austin, Texas.</p>
   </footer>
 
-  <div class="mobile-cta">
-    <a href="tel:5125550123">Call</a>
-    <a class="js-jobber-link" href="#book">Book Now</a>
+  <div class="mobile-cta" aria-label="Quick contact actions">
+    <a href="tel:5125550123" data-phone-link>
+      <span aria-hidden="true">☎</span>
+      <span>Call Papa</span>
+    </a>
+    <a href="#booking" data-jobber-link>
+      <span aria-hidden="true">▣</span>
+      <span>Schedule Now</span>
+    </a>
   </div>
 
   <script src="script.js"></script>

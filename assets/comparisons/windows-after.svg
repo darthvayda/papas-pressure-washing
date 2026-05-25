@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-labelledby="title desc">
+  <title id="title">Sparkling clean windows after washing</title>
+  <desc id="desc">Blue sparkling windows after washing.</desc>
+  <rect width="480" height="360" fill="#dff5ff"/>
+  <rect x="63" y="24" width="354" height="312" rx="8" fill="#eaf9ff" stroke="#123965" stroke-width="10"/>
+  <g fill="#9bdcff">
+    <rect x="83" y="44" width="144" height="126"/>
+    <rect x="253" y="44" width="144" height="126"/>
+    <rect x="83" y="190" width="144" height="126"/>
+    <rect x="253" y="190" width="144" height="126"/>
+  </g>
+  <path d="M240 35v292M73 180h334" stroke="#123965" stroke-width="10"/>
+  <g stroke="#ffffff" stroke-width="9" opacity=".72" stroke-linecap="round">
+    <path d="M112 146L196 62M285 154l72-72M108 286l75-75M285 298l86-86"/>
+  </g>
+  <g fill="#ffffff">
+    <path d="M140 91l9 21 22 8-22 8-9 21-9-21-22-8 22-8z"/>
+    <path d="M338 224l7 16 17 7-17 6-7 17-7-17-17-6 17-7z"/>
+  </g>
+</svg>
