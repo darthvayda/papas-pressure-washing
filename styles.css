@@ -1757,8 +1757,11 @@ body.mobile-menu-open .mobile-menu {
   }
 
   .before-after-grid,
-  .trust-grid,
   .service-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .trust-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
