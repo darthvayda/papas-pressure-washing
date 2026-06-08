@@ -78,15 +78,6 @@ document.querySelectorAll('[data-slider]').forEach((slider) => {
   updateSlider();
 });
 
-const formSuccess = document.querySelector('[data-form-success]');
-const estimateCard = document.querySelector('[data-estimate-card]');
-
-if (formSuccess && estimateCard && new URLSearchParams(window.location.search).get('submitted') === 'true') {
-  formSuccess.hidden = false;
-  estimateCard.hidden = true;
-  formSuccess.scrollIntoView({ block: 'center' });
-}
-
 const year = document.getElementById('year');
 
 if (year) {
