@@ -1152,6 +1152,38 @@ body.mobile-menu-open .mobile-menu {
   padding: clamp(22px, 5vw, 52px);
 }
 
+.estimate-card[hidden] {
+  display: none;
+}
+
+.form-success {
+  display: grid;
+  gap: 18px;
+  max-width: 820px;
+  padding: clamp(30px, 7vw, 62px);
+  text-align: center;
+}
+
+.form-success h2 {
+  color: var(--navy-deep);
+  font-size: clamp(2rem, 8vw, 3rem);
+  line-height: 1.02;
+  text-transform: none;
+}
+
+.form-success p {
+  max-width: 610px;
+  margin: 0 auto;
+  color: #4d5259;
+  font-size: clamp(1rem, 2.8vw, 1.18rem);
+  font-weight: 800;
+}
+
+.form-success .btn {
+  justify-self: center;
+  min-width: min(100%, 260px);
+}
+
 .estimate-form {
   display: grid;
   gap: 34px;

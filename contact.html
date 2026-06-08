@@ -70,8 +70,14 @@
         <p>Tell us about your home and we’ll follow up within 1 business day.</p>
       </div>
 
-      <div class="estimate-card">
-        <form id="estimate-form" class="estimate-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html">
+      <div class="estimate-card form-success" data-form-success hidden>
+        <h2>Thanks! Papa Got Your Request.</h2>
+        <p>We’ll review your estimate request and follow up within 1 business day.</p>
+        <a class="btn btn-primary" href="index.html#top">Back to Home</a>
+      </div>
+
+      <div class="estimate-card" data-estimate-card>
+        <form id="estimate-form" class="estimate-form" name="contact" method="POST" action="/contact.html?submitted=true" enctype="application/x-www-form-urlencoded" data-netlify="true" netlify netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="contact" />
           <p class="form-hidden">
             <label>Do not fill this out if you are human: <input name="bot-field" /></label>
